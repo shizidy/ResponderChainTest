@@ -12,6 +12,7 @@
 #import "GreenButton.h"
 #import "UIButton+HitControl.h"
 #import "UIButton+HitRange.h"
+#import "PurpleView.h"
 #define Screen_Height      [[UIScreen mainScreen] bounds].size.height
 #define Screen_Width       [[UIScreen mainScreen] bounds].size.width
 
@@ -19,6 +20,7 @@
 @property (nonatomic, strong) RedView *redView;
 @property (nonatomic, strong) BlueView *blueView;
 @property (nonatomic, strong) GreenButton *btn;
+@property (nonatomic, strong) PurpleView *purpleView;
 @end
 
 @implementation BaseView
@@ -46,6 +48,11 @@
     self.btn.backgroundColor = [UIColor greenColor];
     self.btn.hitScale = 0.5;
     [self.btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.purpleView = [[PurpleView alloc] initWithFrame:CGRectMake(50, 250, 100, 100)];
+    [self addSubview:self.purpleView];
+    self.purpleView.userInteractionEnabled = YES;
+    self.purpleView.backgroundColor = [UIColor purpleColor];
 }
 
 - (void)btnClick:(UIButton *)btn {

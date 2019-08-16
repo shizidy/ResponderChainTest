@@ -21,6 +21,7 @@
 		9A1C313623055B2800FF2F4A /* GreenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C313523055B2800FF2F4A /* GreenButton.m */; };
 		9A1C313923055D7400FF2F4A /* UIButton+HitControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1C313823055D7400FF2F4A /* UIButton+HitControl.m */; };
 		9AF354DE230645CB0073440B /* UIButton+HitRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF354DD230645CB0073440B /* UIButton+HitRange.m */; };
+		9AF3552C230688BE0073440B /* PurpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF3552B230688BE0073440B /* PurpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		9A1C313823055D7400FF2F4A /* UIButton+HitControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HitControl.m"; sourceTree = "<group>"; };
 		9AF354DC230645CB0073440B /* UIButton+HitRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+HitRange.h"; sourceTree = "<group>"; };
 		9AF354DD230645CB0073440B /* UIButton+HitRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HitRange.m"; sourceTree = "<group>"; };
+		9AF3552A230688BE0073440B /* PurpleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurpleView.h; sourceTree = "<group>"; };
+		9AF3552B230688BE0073440B /* PurpleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				9A1C312C230542A500FF2F4A /* RedView.m */,
 				9A1C313423055B2800FF2F4A /* GreenButton.h */,
 				9A1C313523055B2800FF2F4A /* GreenButton.m */,
+				9AF3552A230688BE0073440B /* PurpleView.h */,
+				9AF3552B230688BE0073440B /* PurpleView.m */,
 				9A1C313723055D7400FF2F4A /* UIButton+HitControl.h */,
 				9A1C313823055D7400FF2F4A /* UIButton+HitControl.m */,
 				9AF354DC230645CB0073440B /* UIButton+HitRange.h */,
@@ -294,6 +299,7 @@
 			files = (
 				9A1C313623055B2800FF2F4A /* GreenButton.m in Sources */,
 				9A1C30FB23053B0C00FF2F4A /* ViewController.m in Sources */,
+				9AF3552C230688BE0073440B /* PurpleView.m in Sources */,
 				9A1C310623053B1100FF2F4A /* main.m in Sources */,
 				9AF354DE230645CB0073440B /* UIButton+HitRange.m in Sources */,
 				9A1C313923055D7400FF2F4A /* UIButton+HitControl.m in Sources */,
