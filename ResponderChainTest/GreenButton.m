@@ -15,6 +15,13 @@
 //    btnBounds = CGRectMake(0, 0, btnBounds.size.width + 100, btnBounds.size.height);
 //    NSLog(@"%@", NSStringFromCGPoint(point));
 //    return CGRectContainsPoint(btnBounds, point);
+
+
+//    CGRect bounds = self.bounds;
+//    // 扩大点击区域
+//    bounds = CGRectInset(bounds, -20, -20);
+//    // 若点击的点在新的bounds里面。就返回yes
+//    return CGRectContainsPoint(bounds, point);
 //}
 
 

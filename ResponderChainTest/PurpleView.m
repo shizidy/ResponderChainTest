@@ -9,6 +9,7 @@
 #import "PurpleView.h"
 
 @implementation PurpleView
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"%@ touch begin", self.class);
     UIResponder *next = [self nextResponder];
@@ -17,6 +18,7 @@
         next = [next nextResponder];
     }
 }
+
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     //首先判断是否可以接收事件
     if (self.userInteractionEnabled == NO || self.hidden == YES || self.alpha <= 0.01) return nil;
